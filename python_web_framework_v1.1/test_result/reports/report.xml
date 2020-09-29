@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skipped="0" tests="5" time="13.237"><testcase classname="TestCase.test_login.TestLogin" file="TestCase\test_login.py" line="16" name="test_login_0_nullUser[data0]" time="8.069"><system-out>============我是session级别的会话=====开始=====
+============整个测试类只执行一次的前置============
+============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的后置============
+</system-out><system-err>Thu, 25 Apr 2019 21:16:30-INFO-BasePage.py-wait_eleVisible-[line:32]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:30-INFO-BasePage.py-wait_eleVisible-[line:37]等待时长0.03：以秒为单位
+Thu, 25 Apr 2019 21:16:30-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:30-INFO-BasePage.py-input_text-[line:58]None：在元素(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)中输入文本：
+Thu, 25 Apr 2019 21:16:30-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//input[@name=&quot;pass&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:30-INFO-BasePage.py-input_text-[line:58]None：在元素(&apos;xpath&apos;, &apos;//input[@name=&quot;pass&quot;]&apos;)中输入文本：
+Thu, 25 Apr 2019 21:16:30-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;padding-cont pt-login&quot;]//a[@class=&quot;btn-btn&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:30-INFO-BasePage.py-click_element-[line:72]None:元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;padding-cont pt-login&quot;]//a[@class=&quot;btn-btn&quot;]&apos;)点击事件
+Thu, 25 Apr 2019 21:16:30-INFO-BasePage.py-wait_eleVisible-[line:32]None：等待元素可见：(&apos;xpath&apos;, &quot;//p[@class=&apos;error-tips&apos;]&quot;)
+Thu, 25 Apr 2019 21:16:30-INFO-BasePage.py-wait_eleVisible-[line:37]等待时长0.01：以秒为单位
+Thu, 25 Apr 2019 21:16:30-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &quot;//p[@class=&apos;error-tips&apos;]&quot;)
+Thu, 25 Apr 2019 21:16:30-INFO-BasePage.py-get_text-[line:97]None:获取元素:(&apos;xpath&apos;, &quot;//p[@class=&apos;error-tips&apos;]&quot;)的文本内容
+Thu, 25 Apr 2019 21:16:30-INFO-BasePage.py-get_text-[line:100]None:元素:(&apos;xpath&apos;, &quot;//p[@class=&apos;error-tips&apos;]&quot;)的文本内容为:账号不能为空
+</system-err></testcase><testcase classname="TestCase.test_login.TestLogin" file="TestCase\test_login.py" line="16" name="test_login_0_nullUser[data1]" time="0.744"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的后置============
+</system-out><system-err>Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-wait_eleVisible-[line:32]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-wait_eleVisible-[line:37]等待时长0.02：以秒为单位
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-input_text-[line:58]None：在元素(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)中输入文本：
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//input[@name=&quot;pass&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-input_text-[line:58]None：在元素(&apos;xpath&apos;, &apos;//input[@name=&quot;pass&quot;]&apos;)中输入文本：liqi_0827
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;padding-cont pt-login&quot;]//a[@class=&quot;btn-btn&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-click_element-[line:72]None:元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;padding-cont pt-login&quot;]//a[@class=&quot;btn-btn&quot;]&apos;)点击事件
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-wait_eleVisible-[line:32]None：等待元素可见：(&apos;xpath&apos;, &quot;//p[@class=&apos;error-tips&apos;]&quot;)
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-wait_eleVisible-[line:37]等待时长0.01：以秒为单位
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &quot;//p[@class=&apos;error-tips&apos;]&quot;)
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-get_text-[line:97]None:获取元素:(&apos;xpath&apos;, &quot;//p[@class=&apos;error-tips&apos;]&quot;)的文本内容
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-get_text-[line:100]None:元素:(&apos;xpath&apos;, &quot;//p[@class=&apos;error-tips&apos;]&quot;)的文本内容为:账号不能为空
+</system-err></testcase><testcase classname="TestCase.test_login.TestLogin" file="TestCase\test_login.py" line="24" name="test_login_1_noPasswd" time="0.761"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的后置============
+</system-out><system-err>Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-wait_eleVisible-[line:32]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-wait_eleVisible-[line:37]等待时长0.02：以秒为单位
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-input_text-[line:58]None：在元素(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)中输入文本：18120430454
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//input[@name=&quot;pass&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-input_text-[line:58]None：在元素(&apos;xpath&apos;, &apos;//input[@name=&quot;pass&quot;]&apos;)中输入文本：
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;padding-cont pt-login&quot;]//a[@class=&quot;btn-btn&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:31-INFO-BasePage.py-click_element-[line:72]None:元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;padding-cont pt-login&quot;]//a[@class=&quot;btn-btn&quot;]&apos;)点击事件
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-wait_eleVisible-[line:32]None：等待元素可见：(&apos;xpath&apos;, &quot;//*[@id=&apos;login&apos;]/div[2]/div[2]/p&quot;)
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-wait_eleVisible-[line:37]等待时长0.01：以秒为单位
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &quot;//*[@id=&apos;login&apos;]/div[2]/div[2]/p&quot;)
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-get_text-[line:97]None:获取元素:(&apos;xpath&apos;, &quot;//*[@id=&apos;login&apos;]/div[2]/div[2]/p&quot;)的文本内容
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-get_text-[line:100]None:元素:(&apos;xpath&apos;, &quot;//*[@id=&apos;login&apos;]/div[2]/div[2]/p&quot;)的文本内容为:密码不能为空
+</system-err></testcase><testcase classname="TestCase.test_login.TestLogin" file="TestCase\test_login.py" line="30" name="test_login_2_noUser" time="0.787"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的后置============
+</system-out><system-err>Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-wait_eleVisible-[line:32]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-wait_eleVisible-[line:37]等待时长0.04：以秒为单位
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-input_text-[line:58]None：在元素(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)中输入文本：1123123
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//input[@name=&quot;pass&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-input_text-[line:58]None：在元素(&apos;xpath&apos;, &apos;//input[@name=&quot;pass&quot;]&apos;)中输入文本：qwefssgsfdh2343
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;padding-cont pt-login&quot;]//a[@class=&quot;btn-btn&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-click_element-[line:72]None:元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;padding-cont pt-login&quot;]//a[@class=&quot;btn-btn&quot;]&apos;)点击事件
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-wait_eleVisible-[line:32]None：等待元素可见：(&apos;xpath&apos;, &apos;//p[@class=&quot;error-tips&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-wait_eleVisible-[line:37]等待时长0.01：以秒为单位
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//p[@class=&quot;error-tips&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-get_text-[line:97]None:获取元素:(&apos;xpath&apos;, &apos;//p[@class=&quot;error-tips&quot;]&apos;)的文本内容
+Thu, 25 Apr 2019 21:16:32-INFO-BasePage.py-get_text-[line:100]None:元素:(&apos;xpath&apos;, &apos;//p[@class=&quot;error-tips&quot;]&apos;)的文本内容为:用户不存在
+</system-err></testcase><testcase classname="TestCase.test_login.TestLogin" file="TestCase\test_login.py" line="36" name="test_login_3_success" time="2.643"><system-out>============测试类中每个测试用例都执行一次的前置============
+============测试类中每个测试用例都执行一次的后置============
+============整个测试类只执行一次的后置============
+============我是session级别的会话=====结束=====
+</system-out><system-err>Thu, 25 Apr 2019 21:16:33-INFO-BasePage.py-wait_eleVisible-[line:32]None：等待元素可见：(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:33-INFO-BasePage.py-wait_eleVisible-[line:37]等待时长0.02：以秒为单位
+Thu, 25 Apr 2019 21:16:33-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:33-INFO-BasePage.py-input_text-[line:58]None：在元素(&apos;xpath&apos;, &apos;//input[@name=&quot;account&quot;]&apos;)中输入文本：18610430456
+Thu, 25 Apr 2019 21:16:33-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//input[@name=&quot;pass&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:33-INFO-BasePage.py-input_text-[line:58]None：在元素(&apos;xpath&apos;, &apos;//input[@name=&quot;pass&quot;]&apos;)中输入文本：liqi_0827
+Thu, 25 Apr 2019 21:16:33-INFO-BasePage.py-get_Element-[line:45]None：查找元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;padding-cont pt-login&quot;]//a[@class=&quot;btn-btn&quot;]&apos;)
+Thu, 25 Apr 2019 21:16:33-INFO-BasePage.py-click_element-[line:72]None:元素：(&apos;xpath&apos;, &apos;//div[@class=&quot;padding-cont pt-login&quot;]//a[@class=&quot;btn-btn&quot;]&apos;)点击事件
+</system-err></testcase></testsuite>

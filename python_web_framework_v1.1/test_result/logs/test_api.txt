@@ -1,0 +1,8 @@
+2019-04-16 22:44:27,616-DEBUG-my_log.py-python10-日志信息：没有见过的日志
+2019-04-16 22:44:27,622-INFO-my_log.py-python10-日志信息：不要慌
+2019-04-16 22:44:27,627-WARNING-my_log.py-python10-日志信息：你也没见过
+2019-04-16 22:44:27,633-ERROR-my_log.py-python10-日志信息：有老夫
+2019-04-17 21:16:35,550-DEBUG-my_log.py-python10-日志信息：没有见过的日志
+2019-04-17 21:16:35,553-INFO-my_log.py-python10-日志信息：不要慌
+2019-04-17 21:16:35,557-WARNING-my_log.py-python10-日志信息：你也没见过
+2019-04-17 21:16:35,561-ERROR-my_log.py-python10-日志信息：有老夫

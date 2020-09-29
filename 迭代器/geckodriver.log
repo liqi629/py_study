@@ -1,0 +1,21 @@
+1566956429761	mozrunner::runner	INFO	Running command: "F:\\newfirefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mrl\\AppData\\Local\\Temp\\rust_mozprofile.OfW8RcwXn7NW"
+1566956432351	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566956432351	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566956432352	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 1076, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18524, Chrome_ChildTh1566956434532	Marionette	INFO	Listening on port 57250
+1566956435015	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://confluence.yoyosys.com.cn:8090/s/d0791f8f56952aa754144392a3c41c4c-CDN/zh_CN/8100/4410012ac87e845516b70bc69b6f7a893eabaa5a/0c03e7fa9baf483bb172fb5465b4017f/_/download/contextbatch/js/main,atl.general,-_super/batch.js?hostenabled=true&locale=zh-CN, line 1426: unreachable code after return statement
+JavaScript error: http://confluence.yoyosys.com.cn:8090/login.action?os_destination=%2Findex.action&permissionViolation=true, line 130: SyntaxError: function statement requires a name
+JavaScript warning: http://confluence.yoyosys.com.cn:8090/s/f28ff0b66dd2af711b4dc98c5b874d35-CDN/zh_CN/8100/4410012ac87e845516b70bc69b6f7a893eabaa5a/0ad9b551affb8cd9fdb99aacb86fdc90/_/download/contextbatch/js/dashboard,backbone-dashboard,atl.general,main,-_super/batch.js?hostenabled=true&locale=zh-CN, line 5460: unreachable code after return statement
+JavaScript error: http://confluence.yoyosys.com.cn:8090/index.action, line 138: SyntaxError: function statement requires a name
+1566956436704	Marionette	INFO	Stopped listening on port 57250
+[Parent 1076, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3216, Chrome_ChildThread] WARNING: pipe error: 109[Parent 1076, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1560988636/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13584, Chrome_ChildThread] WARNING: pipe error: 109: file [GPU 6324, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

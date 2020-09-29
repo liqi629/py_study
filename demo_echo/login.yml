@@ -1,0 +1,30 @@
+config:
+    name: testcase description
+    variables: {}
+teststeps:
+-   name: /echod_manager/rest/system/user/login/
+    request:
+        headers:
+            Content-Type: application/json
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101
+                Firefox/67.0
+            X-Requested-With: XMLHttpRequest
+        json:
+            password: admin
+            username: admin
+        method: POST
+        verify: False
+        url: https://172.16.161.127:18443/echod_manager/rest/system/user/login/
+    validate:
+    -   eq:
+        - status_code
+        - 200
+
+    -   eq:
+        - content.code
+        - SUCCESS
+
+    -   eq:
+        - content.msg
+        - 登录成功
+

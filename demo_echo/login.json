@@ -1,0 +1,68 @@
+{
+    "config": {
+        "name": "testcase description",
+        "variables": {}
+    },
+    "teststeps": [
+        {
+            "name": "/echod_manager/rest/system/user/login/",
+            "request": {
+                "url": "https://172.16.161.127:18443/echod_manager/rest/system/user/login/",
+                "method": "POST",
+                "headers": {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0",
+                    "Content-Type": "application/json",
+                    "X-Requested-With": "XMLHttpRequest"
+                },
+                "json": {
+                    "username": "admin",
+                    "password": "admin"
+                }
+            },
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json;charset=UTF-8"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.code",
+                        "SUCCESS"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.execTime",
+                        13
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.key",
+                        ""
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.msg",
+                        "登录成功"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.timestamp",
+                        "2019-12-04 19:04:51"
+                    ]
+                }
+            ]
+        }
+    ]
+}
